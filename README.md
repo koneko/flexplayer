@@ -1,5 +1,6 @@
 # flexplayer
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/koneko/flexplayer)
 flexplayer is an app that you can use to watch .mp4 videos (only tested on that) and scroll through your file system
 
 ## setup
