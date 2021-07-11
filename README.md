@@ -1,6 +1,7 @@
 # flexplayer
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/koneko/flexplayer)
+<br>
 flexplayer is an app that you can use to watch .mp4 videos (only tested on that) and scroll through your file system
 
 ## setup
@@ -11,7 +12,8 @@ flexplayer is an app that you can use to watch .mp4 videos (only tested on that)
 npm i
 ```
 
-after installing dependencies you have to go into `script.js` and into `.env` and change values \\
+after installing dependencies you have to go into `script.js` and into `.env` and change values
+<br>
 **.env**
 
 ```
