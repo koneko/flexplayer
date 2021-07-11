@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Player</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="items"></div>
+			<div class="videodiv">
+				<ul class="breadcrumb">
+					<li><a href="." onclick="location.reload()">Media</a></li>
+				</ul>
+				<p><span id="currently"></span></p>
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
+<style>
+	ul.breadcrumb {
+		padding: 10px 16px;
+		list-style: none;
+		background-color: rgb(216, 214, 214);
+	}
+	ul.breadcrumb li {
+		display: inline;
+		font-size: 18px;
+	}
+	ul.breadcrumb li + li:before {
+		padding: 8px;
+		color: black;
+		content: "/\00a0";
+	}
+	ul.breadcrumb li a {
+		color: #0275d8;
+		text-decoration: none;
+	}
+	ul.breadcrumb li a:hover {
+		color: #01447e;
+		text-decoration: underline;
+	}
+	.fileItem {
+		padding-top: 5px;
+		display: block;
+	}
+	.items {
+		/* width: 80%;
+        height: 1000px; */
+		overflow-y: scroll;
+		overflow-x: hidden;
+		height: 100%;
+		width: 20%;
+		padding: 10px;
+	}
+	.videodiv {
+		width: 80%;
+		height: 100%;
+		padding: 10px;
+	}
+	.container {
+		display: flex;
+		height: 100%;
+		width: 100%;
+	}
+	html,
+	body {
+		/* overflow-y: hidden; */
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+</style>
